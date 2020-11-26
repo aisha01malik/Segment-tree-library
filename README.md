@@ -14,6 +14,7 @@ d. a function combine that specifies how the result of left and right child of a
 should be used to generate the value of current node.
 
 
+
 Example usage:
 int small(int x,int y){return min(x,y);}
 
@@ -26,3 +27,9 @@ SegmentTree < int > rangeSumQueries(dataVector,0,sum);
 long long product(long long x,long long y){return x*y;}
 
 SegmentTree < long long > rangeProductQueries(dataVector,1,product);
+
+
+
+solution to SPOJ GSS1 using segTree library : https://ideone.com/EFxf6O
+
+solution to SPOJ KGSS using segTree library : https://ideone.com/fUK5Jz
