@@ -3,6 +3,7 @@
 General purpose segment tree library.
 
 To construct a segment tree you need to specify the following:
+
 a. The datatype of array for which the tree is being constructed.
 b. an array or vector for which the tree is to be constructed.
 c. a value that can be used to fill the extra nodes of the tree.
